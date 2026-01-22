@@ -5,6 +5,10 @@
     "dev": "nx serve web",
     "build": "nx build web"
   },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
     "@nx/vite": "^18.3.5",
     "@vitejs/plugin-react": "^4.7.0",
