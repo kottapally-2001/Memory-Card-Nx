@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npx nx build web",
+  "buildCommand": "npx vite build",
   "outputDirectory": "dist/apps/web",
   "framework": null,
   "rewrites": [

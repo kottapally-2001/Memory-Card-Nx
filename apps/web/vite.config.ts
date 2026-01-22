@@ -4,6 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
+  root: 'apps/web',
   build: {
     outDir: path.resolve(__dirname, '../../dist/apps/web'),
     emptyOutDir: true
