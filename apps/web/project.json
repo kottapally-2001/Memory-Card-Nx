@@ -10,11 +10,7 @@
       }
     },
     "build": {
-      "executor": "@nx/vite:build",
-      "outputs": ["{options.outputPath}"],
-      "options": {
-        "outputPath": "dist/apps/web"
-      }
+      "executor": "@nx/vite:build"
     }
   }
 }
