@@ -1,8 +1,11 @@
 {
-  "buildCommand": "npx vite build",
+  "buildCommand": "cd apps/web && npx vite build",
   "outputDirectory": "dist/apps/web",
   "framework": null,
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
